@@ -1,1 +1,1 @@
-# sketchy
+This is echo This an attempt to make a web drawing tool using HTML, JS, CSS. BuildsS. It builds a grid based on input, then allows the user to draw inside the grid, with an erase function and colour option.
