@@ -17,20 +17,20 @@ header {
 }
 
 .gridContainer {
-    margin: 400px;
-    margin-top: 20px;
-    aspect-ratio: 1/1;
+    margin: auto;
+    display: grid;
+    grid-gap: 1px;
+    padding: 40px 100px;
+    height: 42vw;
+    width: 42vw;
+  }
+  
+  .drawable {
     display: flex;
-    flex-wrap: wrap;    
-    justify-content: space-evenly;
-    align-items: space-evenly;
-}
-
-.drawable {
+    flex: 1 1 auto;
     margin: 2px;
-    display: flex;
-    flex: 1 0 auto;
     border: 1px;
+    aspect-ratio: 1/1;
     border-style: solid;
     border-color: black;
-}
+  }
